@@ -4,7 +4,7 @@ import { Button as AntdButton } from 'antd'
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, size, label, ...props }) => {
+export const Button = ({ label, ...props }) => {
   return (
     <AntdButton
       {...props}
