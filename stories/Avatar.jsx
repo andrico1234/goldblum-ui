@@ -1,12 +1,9 @@
 import { Avatar as AntdAvatar } from 'antd'
-import happyImage from './assets/happy.jpg';
-import suaveImage from './assets/suave.png';
-import sexyImage from './assets/sexy.png';
 
 const imageMap = {
-  'happy': happyImage,
-  'suave': suaveImage,
-  'sexy': sexyImage,
+  'happy': "https://i.ibb.co/2SVwTK0/happy.jpg",
+  'suave': "https://i.ibb.co/h9XjRy0/suave.png",
+  'sexy': "https://i.ibb.co/m8Z2Bxm/sexy.png",
 }
 
 export function Avatar({ mood = 'happy' }) {

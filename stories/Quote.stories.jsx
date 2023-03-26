@@ -15,8 +15,8 @@ export default {
 
 const Template = (args) => <Quote {...args} />;
 
-export const Primary = Template.bind({});
+export const Default = Template.bind({});
 
-Primary.args = {
+Default.args = {
   quote: 'God help us, we\'re in the hands of engineers'
 };

@@ -6,6 +6,9 @@ export default {
   title: 'GoldblumUI/Button',
   component: Button,
   argTypes: {
+    label: {
+      control: 'text'
+    },
     type: {
       control: 'select',
       options: ['primary', 'ghost', 'dashed', 'link']
@@ -14,14 +17,17 @@ export default {
       control: 'select',
       options: ['small', 'default', 'large']
     },
+    disabled: {
+      control: 'boolean'
+    }
   },
 };
 
 const Template = (args) => <Button {...args} />;
 
-export const Primary = Template.bind({});
+export const Default = Template.bind({});
 
-Primary.args = {
+Default.args = {
   label: 'Next quote',
   disabled: false,
   type: 'primary',

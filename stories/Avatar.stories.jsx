@@ -15,9 +15,8 @@ export default {
 
 const Template = (args) => <Avatar {...args} />;
 
-export const Primary = Template.bind({});
+export const Default = Template.bind({});
 
-Primary.args = {
-  size: "large",
+Default.args = {
   mood: 'happy'
 };
